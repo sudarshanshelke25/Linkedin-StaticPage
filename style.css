@@ -394,3 +394,238 @@ nav {
         text-align: center;
     }
 }
+
+
+.posts-feed {
+    min-height: 100vh;
+    /* background-color: #E06847; */
+}
+
+.feed-header {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    background-color: var(--white);
+    border: 1.5px solid var(--border-color);
+    border-radius: 10px;
+}
+
+.header-content {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.6rem;
+    padding-inline: 1.2rem;
+    padding-block: 1rem 0.5rem;
+}
+
+.feed-profile {
+    width: 60px;
+    height: 60px;
+    /* background-color: #378FE9; */
+    border-radius: 50%;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+.feed-input input{
+    height: 58px;
+    width: 380px;
+    padding: 1rem;
+    border: 1px solid var(--text-para);
+    border-radius: 5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    outline: none;
+    color: var(--text-dark);
+    transition: 0.3s;
+}
+
+.feed-input input::placeholder {
+    font-size: 1.2rem;
+    color: var(--text-dark);
+}
+
+.feed-input input:hover {
+    background-color: var(--hover-color);
+}
+
+.feed-btns {
+    display: flex;
+    align-items: center;
+    justify-content: space-around;
+    margin-bottom: 0.3rem;
+}
+
+.feed-btns .btn{
+    padding: 0.7rem 1rem ;
+    border-radius: 5px;
+}
+
+.feed-btns .btn:hover {
+    background-color: var(--hover-color);
+
+    h3 {
+        color: var(--text-dark);
+    }
+}
+
+.feed-btns h3 {
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-light);
+    display: flex;
+    gap: 0.8rem;
+    align-items: center;
+
+    span {
+        font-size: 1.5rem; 
+    }
+}
+
+.feed-media span {
+    color: var(--media-btn);
+}
+
+.feed-event span {
+    color: var(--event-btn);
+}
+
+.feed-article span {
+    color: var(--article-btn);
+}
+
+.feed-container {
+    display: flex;
+    flex-direction: column;
+    margin-top: 1.8rem;
+}
+
+.post-container {
+    display: flex;
+    flex-direction: column;
+    padding: 1.2rem;
+    padding-bottom: 0;
+    margin-bottom: 0.5rem;
+    background-color: var(--white);
+    border: 1.5px solid var(--border-color);
+    border-radius: 10px;
+}
+
+.post-header {
+    display: flex;
+    justify-content: space-between;
+    gap: 0.6rem;
+    margin-bottom: 1rem;
+}
+
+.post-profile {
+    flex: 1;
+}
+.post-author {
+    flex: 5;
+}
+.post-author h3 {
+    font-size: 1.3rem;
+    font-weight: 600;
+    color: var(--text-dark);
+}
+.post-author p {
+    font-size: 1rem;
+    font-weight: 400; 
+    color: var(--text-light);
+}
+.post-more {
+    flex: 1;
+    justify-self: flex-end;
+    font-size: 1.4rem;
+    display: flex;
+    gap: 0.5rem;
+}
+
+.post-more span {
+    height: 40px;
+    width: 40px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s;
+    color: var(--text-light);
+}
+
+.post-more span:hover {
+    background-color: var(--hover-color);
+    color: var(--text-dark);
+}
+
+.post-title {
+    margin-bottom: 1.5rem;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.post-content p {
+    margin-bottom: 1rem;
+    font-size: 1.2rem;
+}
+
+.post-content .link,
+.post-content .tag {
+    color: var(--link-blue);
+}
+
+.post-content .link:hover,
+.post-content .tag:hover {
+    text-decoration: underline;
+}
+
+.post-media {
+    width: 100%;
+    max-width: 450px;
+}
+
+.post-media video {
+    max-width: 450px;
+}
+
+.post-responce {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px solid var(--border-color);
+    font-size: 1rem;
+    p {
+        color: var(--text-light);
+    }
+}
+
+.post-reaction {
+    display: flex;
+    gap: 0.5rem;
+}
+
+.post-sharing{
+    display: flex;
+    gap: 1rem;
+}
+
+.post-btns {
+    padding: 0.4rem;
+    padding-bottom: 0.1rem;
+}
+
+.post-btns .btn{
+    font-size: 1.6rem;
+    padding: 0.8rem 2.2rem;
+    color: var(--text-light);
+}
+
+.post-btns .btn:hover{
+    color: var(--text-dark);
+    background-color: var(--border-color);
+}
+
