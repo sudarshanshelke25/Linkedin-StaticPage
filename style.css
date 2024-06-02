@@ -833,11 +833,17 @@ nav {
     justify-content: center;
     gap: 0.5rem 1rem;
     flex-wrap: wrap;
+}
 
-    a {
-        font-size: 1.05rem;
-        color: var(--text-light);
-    }
+.footer-links a {
+    font-size: 1.05rem;
+    color: var(--text-light);
+    transition: 0.3s;
+}
+
+.footer-links a:hover {
+    color: var(--link-blue);
+    text-decoration: underline var(--link-blue);
 }
 
 .footer-bar {
