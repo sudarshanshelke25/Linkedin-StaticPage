@@ -816,6 +816,45 @@ nav {
     background-color: var(--search-bg-color);
 }
 
+.footer-container {
+    position: sticky;
+    top: 70vh;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.footer-links {
+    width: 250px;
+    list-style: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 0.5rem 1rem;
+    flex-wrap: wrap;
+
+    a {
+        font-size: 1.05rem;
+        color: var(--text-light);
+    }
+}
+
+.footer-bar {
+    margin-top: 1rem;
+    display: flex;
+    gap: 0.5rem;
+
+    p {
+        font-size: 1.1rem;
+        color: var(--text-dark);
+    }
+}
+
+.footer-logo {
+    width: 80px;
+}
+
 
 
 
