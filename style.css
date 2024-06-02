@@ -629,3 +629,193 @@ nav {
     background-color: var(--border-color);
 }
 
+
+.news-and-games{ 
+    min-height: 100vh;
+    /* background-color: #919191; */
+}
+
+.news-container {
+    background-color: var(--white);
+    border-radius: 10px;
+    margin-bottom: 0.5rem;
+    border: 1.5px solid var(--border-color);
+}
+
+.news-header {
+    font-size: 1.6rem;
+    font-weight: 600;
+    color: var(--text-dark);
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding-inline: 1.5rem;
+    padding-block: 1rem 0.5rem;
+}
+
+.news-header span{
+    font-size: 0.8rem;
+    text-align: end;
+    padding: 0.1rem 0.5rem;
+    border-radius: 2px;
+    color: var(--white);
+    background-color: var(--text-dark);
+}
+.news-top {
+    padding-bottom: 1.5rem;
+}
+.news-content > h3{
+    font-size: 1.3rem;
+    font-weight: 500;
+    color: var(--text-light);
+    padding-inline: 1.5rem;
+}
+.news-subheader {
+    padding-bottom: 0.5rem;
+}
+
+.game-subheader span{
+    font-size: 1.2rem;
+    font-weight: 500;
+    background-color: #ffd4b0e5;
+    padding: 0 0.5rem;
+    border-radius: 5px;
+}
+
+.news-card {
+    padding-block: 0.4rem;
+    padding-inline: 1.5rem;
+}
+
+.game-card {
+    margin-block: 1rem;
+    padding-inline: 1.5rem;
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+}
+
+.news-card:hover,
+.game-card:hover {
+   background-color: var(--hover-color);
+}
+
+.news-title,
+.game-title {
+    font-size: 1.2rem;
+    line-height: 1.5rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.game-title span {
+    font-weight: 400;
+    color: var(--text-light);
+}
+
+.news-description,
+.game-description {
+    font-size: 1.05rem;
+    font-weight: 350;
+    line-height: 1.5rem;
+    color: var(--text-light);
+    display: flex;
+    align-items: center;
+    gap: 0.5rem;
+    
+}
+
+.news-btn {
+    padding-left: 1.5rem;
+    font-size: 1.2rem;
+    font-weight: 500;
+    color: var(--text-dark);
+}
+
+.game-logo {
+    height: 42px;
+    width: 42px;
+    background-color: #666666;
+    border-radius: 5px;
+
+    img {
+        height: 42px;
+        width: 42px;
+        border-radius: 5px;
+    }
+}
+
+.ads-container {
+    position: sticky;
+    top: 15vh;
+    background-color: var(--white);
+    padding-inline: 1.5rem;
+    padding-block: 1rem;
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    text-align: center;
+    border: 1.5px solid var(--border-color);
+    border-radius: 10px;
+    margin-bottom: 1.5rem;
+}
+
+.ads-container p {
+    font-size: 1.05rem;
+    font-weight: 350;
+    color: var(--text-light);
+    text-align: center;
+}
+
+.ads-images {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    gap: 1.5rem;
+}
+
+.ads-img-cover {
+    width: 90px;
+}
+
+.ads-profile {
+    border-radius: 50%;
+
+    img {
+        border-radius: 50%;
+    }
+}
+
+.ads-content {
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+}
+
+.ads-title {
+    font-size: 1.3rem;
+    font-weight: 400;
+    color: var(--text-light);
+}
+
+.ads-btn .btn {
+    font-size: 1.2rem;
+    font-weight: 500;
+    padding-inline: 1rem;
+    padding-block: 0.5rem;
+    background-color: transparent;
+    border-radius: 5rem;
+    color: var(--link-blue);
+    border: 1.5px solid var(--link-blue);
+    cursor: pointer;
+}
+
+.ads-btn .btn:hover {
+    outline: 1px solid var(--link-blue);
+    background-color: var(--search-bg-color);
+}
+
+
+
+
