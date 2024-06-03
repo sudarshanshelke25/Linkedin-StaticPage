@@ -143,6 +143,10 @@ nav {
     transition: 0.3s;
 }
 
+.nav-links a select{
+    border: none;
+    outline: none;
+}
 .nav-links .profile {
    
     width: 28px;
@@ -189,6 +193,8 @@ nav {
 
 .profile-activity {
     min-height: 100vh;
+    min-width: 300px;
+    max-width: 300px;
     display: flex;
     flex-direction: column;
     gap: 0.5rem;
@@ -398,6 +404,7 @@ nav {
 
 .posts-feed {
     min-height: 100vh;
+    max-width: 600px;
     /* background-color: #E06847; */
 }
 
@@ -432,7 +439,7 @@ nav {
 
 .feed-input input{
     height: 58px;
-    width: 380px;
+    min-width: 380px;
     padding: 1rem;
     border: 1px solid var(--text-para);
     border-radius: 5rem;
@@ -632,6 +639,7 @@ nav {
 
 .news-and-games{ 
     min-height: 100vh;
+    max-width: 600px;
     /* background-color: #919191; */
 }
 
@@ -823,6 +831,7 @@ nav {
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    padding-bottom: 1rem;
 }
 
 .footer-links {
@@ -847,7 +856,7 @@ nav {
 }
 
 .footer-bar {
-    margin-top: 1rem;
+    margin-top: 1rem; 
     display: flex;
     gap: 0.5rem;
 
@@ -860,7 +869,6 @@ nav {
 .footer-logo {
     width: 80px;
 }
-
 
 
 
